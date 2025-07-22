@@ -1,0 +1,14 @@
+li.LinkList{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyrightFoot{
+    background-color: #1a252f;
+    padding: 20px 10px 10px;
+}

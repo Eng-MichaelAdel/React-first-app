@@ -1,0 +1,18 @@
+.form-control::placeholder {
+  color: rgba(33, 37, 41, 0.75);
+}
+
+.form-control {
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+.form-control:focus {
+  background-color: transparent;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  outline: 0;
+  box-shadow: none;
+}

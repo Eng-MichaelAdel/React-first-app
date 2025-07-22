@@ -1,0 +1,69 @@
+:root {
+  --mainColor: #1abc9c;
+  --SecondaryColor: #2c3e50;
+}
+
+/* *** General Styling ***** */
+
+.fs-30 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 46px;
+}
+
+.bg-MainColo {
+  background-color: var(--mainColor);
+}
+.bg-SecColo {
+  background-color: var(--SecondaryColor);
+}
+.text-SecColo{
+  color: var(--SecondaryColor);
+}
+
+.p-40 {
+  padding: 40px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.px-12{
+  padding-inline: 12px;
+}
+/* *** Common Styling ***** */
+section {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SectionsContainer {
+  margin-top: 94px;
+  min-height: calc(100vh - 114px);
+  display: flex;
+  flex-direction: column;
+}
+
+.StarStyle {
+  width: 250px;
+}
+
+.StarStyle::after {
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: currentColor;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  z-index: 0;
+}
+
+i.fa-solid.fa-star {
+  position: relative;
+  z-index: 1;
+}

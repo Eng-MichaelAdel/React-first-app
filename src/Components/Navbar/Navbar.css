@@ -1,0 +1,40 @@
+.bg-petrolblue {
+  background-color: var(--SecondaryColor);
+}
+
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-nav {
+  --bs-nav-link-color: white;
+}
+
+.navbar-nav .navbar-nav:active {
+  --bs-nav-link-color: white;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: white;
+  background-color: var(--mainColor);
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+  color: white;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: white;
+}
+
+.Navmini {
+  padding-block: 8px !important;
+}
+
+nav {
+  transition: all 0.5s;
+}
